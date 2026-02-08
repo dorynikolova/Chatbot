@@ -1,0 +1,15 @@
+{
+  "user_name": "Dori",
+  "language_level": "A2",
+  "exam_date": "2026-02-15",
+  "preferences": {
+    "tone": "warm, encouraging, slightly goofy",
+    "focus": ["grammar", "vocabulary", "exam practice"]
+  },
+  "weak_areas": [
+    "imperative",
+    "past tenses",
+    "indirect object pronouns",
+    "preterite vs imperfect"
+  ]
+}
