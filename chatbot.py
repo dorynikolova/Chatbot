@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 from personality import BILBO_PERSONALITY
 import json
 
-load_dotenv()
+#load_dotenv()
 
 HF_API_KEY = os.getenv("HF_API_KEY")
 MEMORY_PATH = os.path.join(os.path.dirname(__file__), "memory.json") 
@@ -40,7 +40,7 @@ def ask_bilbo(history):
 
     messages = []
     system_prompt = build_system_prompt()
-    messages.append({"role": "system", "content": BILBO_PERSONALITY})
+    messages.append({"role": "system", "content": system_prompt})
 
     for msg in history:
         if msg["role"] == "user":
